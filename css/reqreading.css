@@ -1,6 +1,16 @@
 .toc {
+    display: block;
     background-color: #FFF;
     max-width: 400px;
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type:none;
+}
+
+ul.toc {
+    padding: 10px;
+}
+
+.toc a:visited {
+    color: #d9042B;
 }
